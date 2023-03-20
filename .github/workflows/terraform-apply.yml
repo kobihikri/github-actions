@@ -1,0 +1,11 @@
+- name: terraform-cdk-action
+  uses: hashicorp/terraform-cdk-action@v0.1.0
+  with:
+    cdktfVersion: # optional, default is 0.11.1
+    terraformVersion: # optional, default is 1.2.2
+    workingDirectory: # optional, default is ./
+    stackName: 
+    mode: 
+    terraformCloudToken: # optional
+    githubToken: # optional
+    commentOnPr: # optional, default is true
